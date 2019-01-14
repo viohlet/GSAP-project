@@ -1,7 +1,5 @@
 import "./styles.css";
 import { TweenMax } from "gsap";
-// import { TimeLineMax } from "gsap";
-// import { TweenMax, Draggable } from "gsap/all";
 
 document.getElementById("app").innerHTML = `
       
@@ -19,7 +17,7 @@ document.getElementById("app").innerHTML = `
 `;
 
 TweenMax.from("#generated", 1, { scale: 0, ease: Bounce.easeOut });
-// timeline.from("h1", 4, { opacity: 0 });
+
 TweenMax.from(
   "h1",
   1,
